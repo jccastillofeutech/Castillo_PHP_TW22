@@ -1,0 +1,36 @@
+body {
+    font-family: Calibri, sans-serif;
+    background: #a0ffab;
+}
+
+.container{
+    width: 250px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #71ef77;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+input{
+    width: 90%;
+    padding: 6px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-family: Calibri, sans-serif;
+}
+
+button{
+    margin-top: 10px;
+    padding: 6px 10px;
+    border-radius: 3px;
+    background: #2ce689;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+p{
+    text-align: left;
+    font-size: 14px;
+}
