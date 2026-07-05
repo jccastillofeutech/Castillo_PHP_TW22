@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+body {
+    font-family: Kumbh Sans, sans-serif;
+    background: #e9ebff;
+}
+
+.container{
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #5e98f6;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+input{
+    width: 90%;
+    padding: 6px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-family: Kumbh Sans, sans-serif;
+}
+
+button{
+    margin-top: 10px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 3px;
+    background: #2c76e6;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #1d5dc2;
+}
+h2, h3{
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a{
+    text-decoration: underline;
+}
+p{
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+}
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.remember input{
+    width: auto;
+    margin: 0;
+}
+
+.error{
+    background: #ffb3b3;
+    color: #990000;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
